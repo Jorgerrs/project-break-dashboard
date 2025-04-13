@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    
+   
+</head>
+
+<body>
+    <div id="reloj"></div>
+    <input type="number" id="longitud" placeholder="Longitud de la contraseña (12-50)">
+    <button id="generarContrasena">Generar</button>
+    <div id="passwordResult" class="password-result">
+        "Contraseña Generada: "
+        <span></span>
+    </div>
+    
+    
+
+    <input type="text" id="titulo" placeholder="Título">
+    <input type="url" id="url" placeholder="URL">
+    <button onclick="agregarLink()">Añadir</button>
+    <ul id="listado"></ul>
+
+    <div id="weather">
+        <h2>Estación Meteorológica</h2>
+        <div id="current-weather">
+            <p><strong>Ciudad:</strong> <span id="city"></span></p>
+            <p><strong>Estado del clima:</strong> <span id="condition"></span></p>
+            <p><strong>Temperatura:</strong> <span id="temp"></span> °C</p>
+            <p><strong>Humedad:</strong> <span id="humidity"></span>%</p>
+            <p><strong>Viento:</strong> <span id="wind"></span> km/h</p>
+        </div>
+        <div id="hourly-forecast">
+            <h3>Previsión por horas</h3>
+            <div id="forecast-list"></div>
+        </div>
+    </div>
+    <script src="password.js" ></script>
+    <script src="weather.js" defer></script>
+    <script src="links.js" ></script>
+    <script src="clock.js" ></script>
+    <script src="background.js" ></script>
+</body>
+
+</html>

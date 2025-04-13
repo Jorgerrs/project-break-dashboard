@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .reloj-container {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 30px 50px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .hora {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  .fecha {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  .saludo {
+    margin-top: 20px;
+    font-size: 20px;
+  }
